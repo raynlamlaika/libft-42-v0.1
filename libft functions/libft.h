@@ -48,6 +48,6 @@ void ft_lstadd_back(t_list **lst, t_list *new);
 t_list *ft_lstlast(t_list *lst);
 int ft_lstsize(t_list *lst);
 void ft_putendl_fd(char *s, int fd);
-
+char *ft_strmapi(char const *s, char (*f)(unsigned int, char));
 
 #endif
